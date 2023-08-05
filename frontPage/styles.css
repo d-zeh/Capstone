@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+h1, h2, h3{
+    text-align: center;
+    font-family: 'Borel', cursive;-moz-text-fill-color: white;
+    -webkit-text-fill-color: white;
+    -moz-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
+    -moz-text-stroke-width: 2px;  
+    -webkit-text-stroke-width: 0.5px;
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.adminLogin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.adminLogin-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adminLogin-box h2 {
+    margin-top: 0;
+}
+
+.adminLogin-box form {
+    margin-top: 20px;
+}
+
+.adminLogin-box input {
+    width: 70%;
+}
+
+.adminLogin-box button {
+    width: 100%;
+    padding: 5px;
+    background-color: #fd1fd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.adminLogin-box button:hover {
+    background-color: #b3009267;
+}
+
+
+
+
+
+
+
+
+.adminLogin-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.empLogin-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.empLogin-box h2 {
+    margin-top: 0;
+}
+
+.empLogin-box form {
+    margin-top: 20px;
+}
+
+.empLogin-box input {
+    width: 70%;
+}
+
+.empLogin-box button {
+    width: 100%;
+    padding: 5px;
+    background-color: #fd1fd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.empLogin-box button:hover {
+    background-color: #b3009267;
+}
+
+
+.bottomStrip img {
+    width: 60%;
+    height: 100px; /* The visible height of the strip */
+    background-size: auto 10px; /* Auto width, but only show 200px of height */
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    background-position: center;
+}
+
+.middleStrip img {
+    width: 60%;
+    height: 100px; /* The visible height of the strip */
+    background-size: auto 10px; /* Auto width, but only show 200px of height */
+    position: absolute;
+    bottom: 100px;
+    left: 20vw;
+    background-position: center px
+}
+
+.topStrip img {
+    width:60%;
+    height: 100px; /* The visible height of the strip */
+    background-size: auto 10px; /* Auto width, but only show 200px of height */
+    position: absolute;
+    left: 20vw;
+    bottom: 200px;
+    background-position: center
+}
+
+.messageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 30vw;
+    position: relative;
+    left: 35vw;
+    top:3vh;
+    background-color: #ebc1de;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px;
+    border: 5px solid #3498db; /* Border around the quote box */
+    background-color: #fff; /* Background color inside the frame */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    max-width: 80%;
+}
